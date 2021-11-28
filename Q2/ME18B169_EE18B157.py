@@ -22,10 +22,10 @@ def exp_model(x):
 
 def fnn(k=128, learning_rate=0.001, activation='tanh'):
     model = Sequential()
-    sgd = Adam(learning_rate=learning_rate)
+    optimizer = Adam(learning_rate=learning_rate)
     model.add(Dense(k, input_dim=1, activation=activation))
     model.add(Dense(1, activation='linear'))
-    model.compile(loss='mean_squared_error', optimizer=sgd)
+    model.compile(loss='mean_squared_error', optimizer=optimizer)
 
     return model
 

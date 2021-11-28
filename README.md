@@ -41,6 +41,8 @@ python3 <filename>.py
 ```
 You can also use IDEs like VS Code or PyCharm to run these files.
 
+Please note that we have commented out some code in some .py files to avoid ample computation time. You can uncomment these lines to get full-fledged results.
+
 ## Contact
 
 Please feel free to contact us if you have any doubts or difficulties.
