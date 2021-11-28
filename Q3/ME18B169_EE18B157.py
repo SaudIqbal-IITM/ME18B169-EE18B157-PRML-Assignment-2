@@ -115,7 +115,7 @@ def plot_AdaBoost(X, y, classifiers, alphas):
 
 
 if __name__ == "__main__":
-    for k in [5, 100, 500, 1000]:
+    for k in [5, 100]:
         print("="*25)
 
         classifiers, alphas = train_AdaBoost(X_train, y_train, k)
